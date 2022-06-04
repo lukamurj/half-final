@@ -45,6 +45,7 @@ aside img:nth-child(2) {
   margin-top: 33px;
 }
 .LI a {
+  color: white;
   display: flex;
   align-items: center;
   margin-left: 60px;
@@ -70,7 +71,7 @@ aside div p {
   margin-left: 21px;
   font-size: 16px;
 }
-aside p:last-child {
+.load_more {
   font-size: 14px;
   margin-top: 19px;
   margin-left: 60px;
@@ -179,10 +180,11 @@ header h4 {
   grid-template-columns: 289px 289px 289px 289px;
   grid-column-gap: 25px;
   grid-row-gap: 40px;
+  margin-left: -20px;
 }
 .article img {
-  width: 289px;
-  height: 210px;
+  width: 330px;
+  height: 220px;
 }
 .article p {
   margin-top: 16px;
@@ -257,4 +259,48 @@ header h4 {
   margin-left: 981px;
   font-size: 14px;
   opacity: 0.3;
+}
+.for_designers {
+  width: 1230px;
+  margin-left: 182px;
+  margin-top: 69px;
+  display: flex;
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+}
+.for_des p,
+.for_des h6 {
+  font-size: 16px;
+}
+.for_des p {
+  margin-top: 36px;
+}
+.for_des:first-of-type {
+  margin-right: 172px;
+}
+.for_des:nth-of-type(2) {
+  margin-right: 149px;
+}
+.for_des:nth-of-type(3) {
+  margin-right: 202px;
+}
+.for_des h6 {
+  font-weight: normal;
+}
+.footer_last {
+  margin-left: 182px;
+  margin-top: 40px;
+  display: flex;
+  padding-bottom: 40px;
+}
+.images img {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+}
+.footer_last p {
+  margin-left: 959px;
+}
+.footer_last p span {
+  font-weight: 900;
 }
