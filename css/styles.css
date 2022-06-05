@@ -215,6 +215,7 @@ header h4 {
 }
 .section_2 h2 {
   font-size: 32px;
+  font-family: avenir-heavy;
 }
 .designers img {
   width: 132px;
@@ -266,6 +267,7 @@ header h4 {
   margin-left: 981px;
   font-size: 14px;
   opacity: 0.3;
+  font-family: avenir-heavy;
 }
 .for_designers {
   width: 1230px;
@@ -278,6 +280,9 @@ header h4 {
 .for_des p,
 .for_des h6 {
   font-size: 16px;
+}
+.for_des:first-of-type h6 {
+  font-family: avenir-heavy;
 }
 .for_des p {
   margin-top: 36px;
@@ -307,6 +312,7 @@ header h4 {
 }
 .footer_last p {
   margin-left: 959px;
+  font-family: avenir-book;
 }
 .footer_last p span {
   font-weight: 900;
