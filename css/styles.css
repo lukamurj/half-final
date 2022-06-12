@@ -6,13 +6,16 @@
   list-style: none;
 }
 body {
-  width: 1920px;
+  max-width: 1920px;
+  width: 100%;
   margin: 0 auto;
 }
 aside {
-  width: 319px;
+  max-width: 319px;
+  width: 100%;
   height: 1080px;
   background-color: #222222;
+  position: fixed;
 }
 .first-logo {
   width: 146px;
@@ -94,8 +97,18 @@ aside img:nth-child(2) {
   background-color: #f8f8f8;
   border-radius: 12px;
 }
+
+label img {
+  width: 24px;
+  height: 24px;
+}
 .flex {
   display: flex;
+}
+.head {
+  max-width: 1601px;
+  width: 100%;
+  margin-left: 319px;
 }
 header {
   margin-left: 25px;
@@ -190,8 +203,8 @@ header h4 {
   margin-left: -20px;
 }
 .article img {
-  width: 330px;
-  height: 220px;
+  width: 289px;
+  height: 210px;
 }
 .article p {
   margin-top: 16px;
@@ -246,12 +259,7 @@ header h4 {
   background-color: #f2f2f2;
   border: none;
 }
-.designers {
-  margin-left: 25px;
-}
-.designers:first-of-type {
-  margin-left: 182px;
-}
+
 .des {
   margin-top: 54px;
   text-align: center;
@@ -327,6 +335,11 @@ header h4 {
     max-width: 170px;
     width: 100%;
   }
+  .head {
+    max-width: 854px;
+    width: 100%;
+    margin-left: 170px;
+  }
   .first-logo {
     width: 78px;
     margin-left: 10px;
@@ -350,7 +363,8 @@ header h4 {
     margin-left: 10px;
   }
   .follow {
-    margin-left: 40px;
+    margin-left: 20px;
+    font-size: 13px;
   }
   .following {
     margin-left: 20px;
@@ -379,6 +393,7 @@ header h4 {
   }
   .in {
     width: 200px;
+    height: 30px;
   }
   .header_profile {
     margin-left: 280px;
@@ -402,6 +417,11 @@ header h4 {
   }
   .in input {
     width: 215px;
+    height: 30px;
+  }
+  label img {
+    width: 13px;
+    height: 13px;
   }
   .in input::placeholder {
     padding-left: 10px;
@@ -429,15 +449,14 @@ header h4 {
   .nav_2 button {
     margin-left: 170px;
     width: 75px;
+    height: 30px;
+    font-size: 12px;
   }
   .nav_2 button img {
     margin-left: 10px;
     margin-right: 8px;
     width: 15px;
     height: 15px;
-  }
-  .nav_2 button {
-    font-size: 12px;
   }
 
   .grid {
@@ -447,8 +466,8 @@ header h4 {
     margin-left: -12px;
   }
   .article img {
-    width: 210px;
-    height: 115px;
+    width: 155px;
+    height: 110px;
   }
   .article p {
     margin-top: 9px;
@@ -457,6 +476,7 @@ header h4 {
     font-size: 14px;
   }
   .btn_2 {
+    margin-top: 40px;
     margin-left: 280px;
     padding: 9px 57px 10px 56px;
     font-size: 13px;
@@ -464,17 +484,19 @@ header h4 {
 
   .top_des {
     margin-left: 40px;
+    padding-top: 35px;
   }
   .section_2 h2 {
     font-size: 20px;
   }
+  .section_2 {
+    margin-top: 40px;
+  }
   .top_des p {
-    margin-left: 600px;
+    margin-left: 560px;
     font-size: 12px;
   }
-  .designers:first-of-type {
-    margin-left: 40px;
-  }
+
   .designers img {
     width: 60px;
     height: 60px;
@@ -485,27 +507,25 @@ header h4 {
     margin-left: 15px;
   }
   .designers h6 {
-    font-size: 10px;
+    font-size: 5px;
     margin-top: 20px;
   }
-  .designers {
-    margin-left: 12px;
-  }
+
   .designers button {
-    font-size: 12px;
+    font-size: 9px;
     padding: 7px 18px 8px 16px;
   }
   .for_designers {
     max-width: 650px;
     width: 100%;
-    margin-left: 90px;
+    margin-left: 50px;
   }
   .for_des:first-of-type {
     margin-right: 100px;
   }
   .for_des p,
   .for_des h6 {
-    font-size: 13px;
+    font-size: 10px !important;
   }
   .for_des:nth-of-type(2) {
     margin-right: 80px;
@@ -522,7 +542,7 @@ header h4 {
     margin-right: 12px;
   }
   .footer_last p {
-    margin-left: 500px;
+    margin-left: 400px;
     font-size: 13px;
   }
 }
@@ -533,8 +553,13 @@ header h4 {
     width: 100%;
   }
   aside {
-    max-width: 130px;
+    max-width: 128px;
     width: 100%;
+  }
+  .head {
+    max-width: 640px;
+    width: 100%;
+    margin-left: 128px;
   }
   .first-logo {
     width: 55px;
@@ -559,7 +584,8 @@ header h4 {
     margin-left: 7px;
   }
   .follow {
-    margin-left: 20px;
+    margin-left: 15px;
+    font-size: 10px;
   }
   .following {
     margin-left: 15px;
@@ -588,6 +614,7 @@ header h4 {
   }
   .in {
     width: 150px;
+    height: 23px;
   }
   .header_profile {
     margin-left: 215px;
@@ -610,7 +637,12 @@ header h4 {
     margin-left: 15px;
   }
   .in input {
+    height: 23px;
     width: 165px;
+  }
+  label img {
+    width: 10px;
+    height: 10px;
   }
   .in input::placeholder {
     padding-left: 7px;
@@ -637,16 +669,15 @@ header h4 {
   }
   .nav_2 button {
     margin-left: 120px;
-    width: 75px;
+    font-size: 9px;
+    height: 23px;
+    width: 56px;
   }
   .nav_2 button img {
     margin-left: 7px;
     margin-right: 6px;
     width: 12px;
     height: 12px;
-  }
-  .nav_2 button {
-    font-size: 9px;
   }
 
   .grid {
@@ -656,8 +687,8 @@ header h4 {
     margin-left: -9px;
   }
   .article img {
-    width: 160px;
-    height: 90px;
+    width: 115px;
+    height: 83px;
   }
   .article p {
     margin-top: 8px;
@@ -667,23 +698,26 @@ header h4 {
   }
   .btn_2 {
     margin-left: 215px;
+    margin-top: 30px;
     padding: 6px 44px 8px 43px;
     font-size: 10px;
   }
 
   .top_des {
     margin-left: 30px;
+    padding-top: 27px;
   }
   .section_2 h2 {
     font-size: 15px;
   }
+  .section_2 {
+    margin-top: 30px;
+  }
   .top_des p {
-    margin-left: 460px;
+    margin-left: 300px;
     font-size: 9px;
   }
-  .designers:first-of-type {
-    margin-left: 30px;
-  }
+
   .designers img {
     width: 46px;
     height: 46px;
@@ -697,24 +731,25 @@ header h4 {
     font-size: 8px;
     margin-top: 15px;
   }
-  .designers {
-    margin-left: 9px;
-  }
+
   .designers button {
-    font-size: 9px;
+    font-size: 5px;
     padding: 5px 14px 6px 13px;
   }
   .for_designers {
     max-width: 500px;
     width: 100%;
-    margin-left: 70px;
+    margin-left: 30px;
   }
   .for_des:first-of-type {
     margin-right: 78px;
   }
+  .for_des {
+    margin-right: 50px !important;
+  }
   .for_des p,
   .for_des h6 {
-    font-size: 10px;
+    font-size: 7px !important;
   }
   .for_des:nth-of-type(2) {
     margin-right: 60px;
@@ -731,7 +766,7 @@ header h4 {
     margin-right: 9px;
   }
   .footer_last p {
-    margin-left: 385px;
+    margin-left: 250px;
     font-size: 10px;
   }
 }
@@ -742,8 +777,13 @@ header h4 {
     width: 100%;
   }
   aside {
-    max-width: 81px;
+    max-width: 80px;
     width: 100%;
+  }
+  .head {
+    max-width: 400px;
+    width: 100%;
+    margin-left: 80px;
   }
   .first-logo {
     width: 35px;
@@ -768,7 +808,8 @@ header h4 {
     margin-left: 4px;
   }
   .follow {
-    margin-left: 12.5px;
+    margin-left: 9px;
+    font-size: 7px;
   }
   .following {
     margin-left: 9px;
@@ -797,6 +838,7 @@ header h4 {
   }
   .in {
     width: 94px;
+    height: 15px;
   }
   .header_profile {
     margin-left: 134px;
@@ -820,6 +862,11 @@ header h4 {
   }
   .in input {
     width: 103px;
+    height: 15px;
+  }
+  label img {
+    width: 6px;
+    height: 6px;
   }
   .in input::placeholder {
     padding-left: 4px;
@@ -846,16 +893,15 @@ header h4 {
   }
   .nav_2 button {
     margin-left: 75px;
-    width: 49px;
+    width: 35px;
+    height: 15px;
+    font-size: 5.5px;
   }
   .nav_2 button img {
     margin-left: 4px;
     margin-right: 3.5px;
     width: 7.5px;
-    height: 17.5px;
-  }
-  .nav_2 button {
-    font-size: 5.5px;
+    height: 7.5px;
   }
 
   .grid {
@@ -865,8 +911,8 @@ header h4 {
     margin-left: -5.5px;
   }
   .article img {
-    width: 100px;
-    height: 56px;
+    width: 70px;
+    height: 50px;
   }
   .article p {
     margin-top: 5px;
@@ -876,23 +922,26 @@ header h4 {
   }
   .btn_2 {
     margin-left: 134px;
+    margin-top: 20px;
     padding: 3.5px 27.5px 5px 27px;
     font-size: 6px;
   }
 
   .top_des {
     margin-left: 18.5px;
+    padding-top: 17px;
   }
   .section_2 h2 {
     font-size: 9px;
   }
+  .section_2 {
+    margin-top: 20px;
+  }
   .top_des p {
-    margin-left: 287px;
+    margin-left: 187px;
     font-size: 5.5px;
   }
-  .designers:first-of-type {
-    margin-left: 18.5px;
-  }
+
   .designers img {
     width: 28.5px;
     height: 28.5px;
@@ -906,24 +955,22 @@ header h4 {
     font-size: 5px;
     margin-top: 9px;
   }
-  .designers {
-    margin-left: 5.5px;
-  }
+
   .designers button {
-    font-size: 5.5px;
+    font-size: 3px;
     padding: 3px 8.5px 3.5px 8px;
   }
   .for_designers {
     max-width: 312px;
     width: 100%;
-    margin-left: 43.5px;
+    margin-left: 15px;
   }
   .for_des:first-of-type {
     margin-right: 48.5px;
   }
   .for_des p,
   .for_des h6 {
-    font-size: 6px;
+    font-size: 4px !important;
   }
   .for_des:nth-of-type(2) {
     margin-right: 37.5px;
@@ -940,7 +987,7 @@ header h4 {
     margin-right: 5.5px;
   }
   .footer_last p {
-    margin-left: 240px;
+    margin-left: 180px;
     font-size: 6px;
   }
 }
